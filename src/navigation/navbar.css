@@ -1,0 +1,46 @@
+.navbar {
+	background: #800000;
+	/* background: #7c1c1d; */
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 5rem;
+	padding: 0 2rem;
+	/* gap: 15px; */
+}
+
+.menu-items {
+	color: gold;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu-items:hover {
+	text-shadow: 2px 2px #ff0000;
+}
+
+.est-datetime {
+	color: white;
+	font-weight: bold;
+}
+
+.nst-datetime {
+	color: #5338ff;
+	font-weight: bold;
+}
+
+.logo {
+	width: 5rem;
+	height: 5rem;
+	/* position: absolute; */
+}
+
+.home-logo {
+	display: flex;
+	position: absolute;
+	height: 10rem;
+	border-radius: 1rem;
+	top: 10;
+}

@@ -7,28 +7,26 @@ import Home from './pages/home'
 import About from './pages/about/about'
 import NotFound from './pages/not-found/not-found'
 import President from './pages/messages/president'
+import Messages from './pages/messages/messages'
+import IndexPage from './pages/index-page/index-page'
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: (
-			<Home>
-				<About />
-			</Home>
-		),
+		element: <Home children={<IndexPage />} />,
 		errorElement: <NotFound />,
 	},
 	{
 		path: '/about',
-		element: <About />,
+		element: <Home children={<About />} />,
+	},
+	{
+		path: '/messages',
+		element: <Home children={<Messages />} />,
 	},
 	{
 		path: '/messages/president',
-		element: (
-			<Home>
-				<President />
-			</Home>
-		),
+		element: <Home children={<President />} />,
 	},
 ])
 

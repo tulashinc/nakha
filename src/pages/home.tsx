@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import Navbar from '../navigation/navbar'
-import Footer from '../navigation/footer'
 import Advertisements from './advertisements/advertisements'
+import Footer from '../navigation/footer'
 
 interface IChildren {
 	children: ReactNode
