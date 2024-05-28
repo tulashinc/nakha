@@ -11,10 +11,10 @@ const Navbar = () => {
 				<EstDateTime />
 			</div>
 
-			<Link to="/" className="menu-items">
+			<Link to="/history" className="menu-items">
 				History
 			</Link>
-			<Link to="/about" className="menu-items">
+			<Link to="/events" className="menu-items">
 				Events
 			</Link>
 			<Link to="/messages" className="menu-items">
@@ -22,16 +22,18 @@ const Navbar = () => {
 			</Link>
 
 			<div className="logo">
-				<img src="./Logo_Background.jpg" className="home-logo" />
+				<Link to="/" className="menu-items">
+					<img src="./Logo_Background.jpg" className="home-logo" />
+				</Link>
 			</div>
 
-			<Link to="/messages/president" className="menu-items">
+			<Link to="/media" className="menu-items">
 				Media
 			</Link>
-			<Link to="/messages/president" className="menu-items">
+			<Link to="/gallery" className="menu-items">
 				Gallery
 			</Link>
-			<Link to="/messages/contact" className="menu-items">
+			<Link to="/contact" className="menu-items">
 				Contact Us
 			</Link>
 
