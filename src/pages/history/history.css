@@ -1,0 +1,16 @@
+p {
+	padding: 0.4rem 1rem;
+}
+
+.main-heading {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #e67300;
+	/* text-shadow: 1px solid red; */
+}
+
+.sub-heading {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #e67300;
+}

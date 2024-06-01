@@ -15,4 +15,10 @@
 .child-container {
 	min-height: 604px;
 	width: 80%;
+	background-image: url('./Logo 10 percent no background.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* background-blend-mode: lighten; */
+	/* opacity: 0.1; */
 }

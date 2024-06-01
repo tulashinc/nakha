@@ -17,17 +17,19 @@
 }
 
 .menu-items:hover {
-	text-shadow: 2px 2px #ff0000;
+	text-shadow: 2px 1px #e67300;
 }
 
 .est-datetime {
 	color: white;
-	font-weight: bold;
+	/* font-weight: bold; */
+	text-shadow: 1px 1px #e67300;
 }
 
 .nst-datetime {
 	color: #5338ff;
-	font-weight: bold;
+	/* font-weight: bold; */
+	text-shadow: 1px 1px #e67300;
 }
 
 .logo {
