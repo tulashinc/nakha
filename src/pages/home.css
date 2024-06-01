@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-size: border-box;
+}
+
+/* .container {
+	height: 60vh;
+} */
+
+.main-container {
+	display: flex;
+}
+
+.child-container {
+	min-height: 604px;
+	width: 80%;
+}

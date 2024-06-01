@@ -1,0 +1,14 @@
+.adv-container {
+	background: #ccffe6;
+	width: 20%;
+}
+
+.advertises {
+	height: 22%;
+	width: 85%;
+	margin: 0.9rem 1rem;
+	padding: 0 0.4rem;
+	border-radius: 0.5rem;
+	background: #d7d4f7;
+	box-shadow: 5px 6px #b3b3b3;
+}
