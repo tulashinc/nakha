@@ -12,12 +12,16 @@ interface IChildren {
 function Home({ children }: IChildren) {
 	return (
 		<div className="container">
-			<Navbar />
+			<div className="navbar-sticky">
+				<Navbar />
+			</div>
 			<div className="main-container">
 				<div className="child-container">{children}</div>
 				<Advertisements />
 			</div>
-			<Footer />
+			<div className="footer-sticky">
+				<Footer />
+			</div>
 		</div>
 	)
 }

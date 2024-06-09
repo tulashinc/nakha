@@ -53,7 +53,20 @@ const History = () => {
 				sapiente! Voluptatem, accusamus minus! Dolorem sunt fugit facere at ex
 				corrupti quis. Eos dolor non repellat quasi quis? Distinctio, commodi
 				voluptatibus, quisquam libero itaque repudiandae facilis amet recusandae
-				iusto, obcaecati voluptates.
+				iusto, obcaecati voluptates. Lorem ipsum dolor sit amet consectetur
+				adipisicing elit. Quod, cupiditate nulla! Similique fugit explicabo
+				illum quas in necessitatibus? Nihil molestiae quidem asperiores fuga
+				nesciunt deserunt maxime quos dicta nobis sint? Lorem ipsum dolor, sit
+				amet consectetur adipisicing elit. Veritatis nulla recusandae
+				voluptatibus error reprehenderit sint dolores dolore unde eligendi.
+				Tempora, vitae qui voluptatum harum excepturi obcaecati perspiciatis
+				autem et accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing
+				elit. Nulla, harum ipsum laboriosam exercitationem atque quasi in, natus
+				excepturi veritatis voluptas rem laborum? Ea reprehenderit cumque natus
+				mollitia eum tenetur expedita. Lorem ipsum dolor sit amet consectetur,
+				adipisicing elit. Illum earum nihil aliquid nostrum consequuntur ullam
+				odio odit libero? Porro modi voluptates officiis maiores harum magnam
+				accusantium doloremque eligendi totam voluptatem!
 			</p>
 		</div>
 	)

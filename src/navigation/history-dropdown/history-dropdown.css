@@ -1,0 +1,40 @@
+.history-dropdown {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 12rem;
+	position: absolute;
+	/* visibility: hidden; */
+}
+
+.history-dropdown ul {
+	position: relative;
+	margin-top: 1.7rem;
+	margin-left: -4rem;
+	width: 12rem;
+	background: #ffec9e;
+}
+
+.history-dropdown ul li {
+	width: 120px;
+	list-style: none;
+	padding: 0.5rem;
+	/* margin-top: 0.5rem; */
+}
+
+.history-dropdown ul li Link {
+	text-decoration: none;
+}
+
+.history-dropdown:hover {
+	visibility: visible;
+	position: absolute;
+	text-decoration: none;
+	background: transparent;
+	border-radius: 5px;
+}
+
+.active,
+.history-dropdown ul li Link {
+	background: blue;
+}

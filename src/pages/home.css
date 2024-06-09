@@ -8,8 +8,22 @@
 	height: 60vh;
 } */
 
+body {
+	height: 100vh;
+}
+
 .main-container {
 	display: flex;
+}
+
+.navbar-sticky {
+	position: sticky;
+	top: 0;
+}
+
+.footer-sticky {
+	position: sticky;
+	bottom: 0;
 }
 
 .child-container {

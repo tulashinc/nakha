@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './navbar.css'
 import EstDateTime from './est-datetime'
 import NstDateTime from './nst-datetime'
+import HistoryDropdown from './history-dropdown/history-dropdown'
 
 const Navbar = () => {
 	return (
@@ -10,9 +11,10 @@ const Navbar = () => {
 			<div className="est-datetime">
 				<EstDateTime />
 			</div>
-
+			{/* <div className="abc"> */}
 			<Link to="/history" className="menu-items">
 				History
+				<HistoryDropdown />
 			</Link>
 			<Link to="/events" className="menu-items">
 				Events
@@ -36,7 +38,7 @@ const Navbar = () => {
 			<Link to="/contact" className="menu-items">
 				Contact Us
 			</Link>
-
+			{/* </div> */}
 			<div className="nst-datetime">
 				<NstDateTime />
 			</div>
