@@ -17,6 +17,14 @@
 	font-weight: bold;
 }
 
+.menu-items .sub-menu {
+	visibility: hidden;
+}
+
+.menu-items:hover .sub-menu {
+	visibility: visible;
+}
+
 .menu-items:before {
 	content: '';
 	position: absolute;
@@ -25,7 +33,8 @@
 	height: 3px;
 	width: 0%;
 	border-radius: 5px;
-	background: #d67900;
+	background: #f58b00;
+	/* background: #d67900; */
 	margin: -5px -5px;
 	transition: all 0.4s ease;
 }

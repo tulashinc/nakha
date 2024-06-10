@@ -14,7 +14,9 @@ const Navbar = () => {
 			{/* <div className="abc"> */}
 			<Link to="/history" className="menu-items">
 				History
-				<HistoryDropdown />
+				<div className="sub-menu">
+					<HistoryDropdown />
+				</div>
 			</Link>
 			<Link to="/events" className="menu-items">
 				Events
