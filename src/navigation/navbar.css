@@ -15,9 +15,16 @@
 	color: gold;
 	text-decoration: none;
 	font-weight: bold;
+	/* border: 1px solid green; */
+	height: 2.2rem;
+	padding: 22px 5px;
 }
 
 .menu-items .sub-menu {
+	position: absolute;
+	margin: 32px 0;
+	height: auto;
+	min-width: 200px;
 	visibility: hidden;
 }
 
@@ -28,19 +35,17 @@
 .menu-items:before {
 	content: '';
 	position: absolute;
-	bottom: 0;
+	bottom: 25px;
 	left: 0;
-	height: 3px;
 	width: 0%;
-	border-radius: 5px;
+	border-radius: 15px;
 	background: #f58b00;
-	/* background: #d67900; */
-	margin: -5px -5px;
+	padding: 2px;
 	transition: all 0.4s ease;
 }
 
 .menu-items:hover:before {
-	width: 120%;
+	width: 100%;
 }
 
 .est-datetime {
