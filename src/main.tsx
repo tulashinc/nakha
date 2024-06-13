@@ -13,6 +13,8 @@ import Events from './pages/events/events'
 import History from './pages/history/history'
 import Gallery from './pages/gallery/gallery'
 import ContactUs from './pages/contact-us/contact-us'
+import VicePresident from './pages/messages/vice-president'
+import Objectives from './pages/history/objectives'
 
 const router = createBrowserRouter([
 	{
@@ -23,6 +25,10 @@ const router = createBrowserRouter([
 	{
 		path: '/history',
 		element: <Home children={<History />} />,
+	},
+	{
+		path: '/history/objectives',
+		element: <Home children={<Objectives />} />,
 	},
 
 	{
@@ -40,6 +46,10 @@ const router = createBrowserRouter([
 	{
 		path: '/messages/president',
 		element: <Home children={<President />} />,
+	},
+	{
+		path: '/messages/vice-president',
+		element: <Home children={<VicePresident />} />,
 	},
 	{
 		path: '/gallery',

@@ -1,32 +1,32 @@
 import { Link } from 'react-router-dom'
 
-import './history-dropdown.css'
+import '../history-dropdown/history-dropdown.css'
 
-const HistoryDropdown = () => {
+const MessageDropdown = () => {
 	return (
 		<div className="history-dropdown">
-			<Link to="/history/introduction" className="sub-dropdown">
-				Introduction
+			<Link to="/messages/president" className="sub-dropdown">
+				President
 			</Link>
 
-			<Link to="/history/objectives" className="sub-dropdown">
-				Objectives
+			<Link to="/messages/vice-president" className="sub-dropdown">
+				Vice President
 			</Link>
 
-			<Link to="/history/currentecmembers" className="sub-dropdown">
-				Current EC Members
+			<Link to="/messages/general-secretary" className="sub-dropdown">
+				General Secretary
 			</Link>
 
-			<Link to="/history/pastecmembers" className="sub-dropdown">
-				Past EC Members
+			<Link to="/messages/secretary" className="sub-dropdown">
+				Secretary
 			</Link>
 
-			<Link to="/history/members" className="sub-dropdown">
-				General Members
+			<Link to="/messages/treasurer" className="sub-dropdown">
+				Treasurer
 			</Link>
 
-			<Link to="/history/bylaws" className="sub-dropdown">
-				By Laws
+			<Link to="/messages/advisor" className="sub-dropdown">
+				Advisor
 			</Link>
 
 			{/* <ul>
@@ -55,4 +55,4 @@ const HistoryDropdown = () => {
 	)
 }
 
-export default HistoryDropdown
+export default MessageDropdown

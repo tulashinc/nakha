@@ -4,6 +4,7 @@ import './navbar.css'
 import EstDateTime from './est-datetime'
 import NstDateTime from './nst-datetime'
 import HistoryDropdown from './history-dropdown/history-dropdown'
+import MessageDropdown from './message-dropdown/message-dropdown'
 
 const Navbar = () => {
 	return (
@@ -23,6 +24,9 @@ const Navbar = () => {
 			</Link>
 			<Link to="/messages" className="menu-items">
 				Messages
+				<div className="sub-menu">
+					<MessageDropdown />
+				</div>
 			</Link>
 
 			<div className="logo">
