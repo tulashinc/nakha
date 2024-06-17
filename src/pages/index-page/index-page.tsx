@@ -1,7 +1,8 @@
 const IndexPage = () => {
 	return (
 		<div>
-			This is INDEX page.
+			<p className="main-heading">This is INDEX page.</p>
+			<p className="sub-heading">Welcome to Newah Nakha New York</p>
 			<span>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
 				explicabo doloremque. Mollitia laboriosam suscipit molestiae! Dolore

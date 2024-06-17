@@ -12,7 +12,7 @@ const Navbar = () => {
 			<div className="est-datetime">
 				<EstDateTime />
 			</div>
-			{/* <div className="abc"> */}
+
 			<Link to="/history" className="menu-items">
 				History
 				<div className="sub-menu">
@@ -44,7 +44,6 @@ const Navbar = () => {
 			<Link to="/contact" className="menu-items">
 				Contact Us
 			</Link>
-			{/* </div> */}
 			<div className="nst-datetime">
 				<NstDateTime />
 			</div>

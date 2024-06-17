@@ -1,7 +1,9 @@
 const President = () => {
 	return (
 		<>
-			<div>
+			<p className="main-heading">President speaks</p>
+			<p className="sub-heading">Welcome you all</p>
+			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
 				atque alias labore animi, cupiditate rem quisquam quis inventore. Dolor
 				aliquid eius nisi velit, cumque excepturi non similique autem? Quis,
@@ -51,7 +53,7 @@ const President = () => {
 				minus blanditiis ipsam voluptatibus eius dolore ut natus at ducimus
 				voluptatem eos nam iusto in rerum rem! Quos, quibusdam quisquam. Veniam
 				culpa alias odit quo consectetur provident.
-			</div>
+			</p>
 		</>
 	)
 }

@@ -1,7 +1,9 @@
 const VicePresident = () => {
 	return (
 		<>
-			<div>
+			<p className="main-heading">Message from Vice President</p>
+			<p className="sub-heading">Newah Nakha New York</p>
+			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
 				atque alias labore animi, cupiditate rem quisquam quis inventore. Dolor
 				aliquid eius nisi velit, cumque excepturi non similique autem? Quis,
@@ -32,7 +34,7 @@ const VicePresident = () => {
 				eligendi ad molestiae perspiciatis soluta magni quasi quia voluptate!
 				Sit quo iure facilis! Ex non animi amet minima libero suscipit. Fugit
 				mollitia dolor, delectus odit placeat harum quaerat.
-			</div>
+			</p>
 		</>
 	)
 }
