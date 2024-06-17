@@ -36,6 +36,7 @@ body {
 	background-repeat: no-repeat;
 	/* background-blend-mode: lighten; */
 	/* opacity: 0.1; */
+	padding: 0.4rem 1rem;
 }
 
 /* .child-container */

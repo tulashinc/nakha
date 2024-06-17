@@ -4,6 +4,7 @@
 }
 
 .advertises {
+	position: sticky;
 	height: 18.5%;
 	width: 85%;
 	margin: 0.9rem 1rem;

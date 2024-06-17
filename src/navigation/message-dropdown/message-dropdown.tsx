@@ -1,11 +1,18 @@
 import { Link } from 'react-router-dom'
 
 import '../history-dropdown/history-dropdown.css'
+import { MessagesSubmenu } from '../navbar-items.ts'
 
 const MessageDropdown = () => {
 	return (
 		<div className="history-dropdown">
-			<Link to="/messages/president" className="sub-dropdown">
+			{MessagesSubmenu.map((mm) => (
+				<Link to={mm.menupath} key={mm.id} className="sub-dropdown">
+					{mm.menuname}
+				</Link>
+			))}
+
+			{/* <Link to="/messages/president" className="sub-dropdown">
 				President
 			</Link>
 
@@ -27,7 +34,7 @@ const MessageDropdown = () => {
 
 			<Link to="/messages/advisor" className="sub-dropdown">
 				Advisor
-			</Link>
+			</Link> */}
 
 			{/* <ul>
 				<li>
