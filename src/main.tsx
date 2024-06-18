@@ -15,6 +15,7 @@ import Gallery from './pages/gallery/gallery'
 import ContactUs from './pages/contact-us/contact-us'
 import VicePresident from './pages/messages/vice-president'
 import Objectives from './pages/history/objectives'
+import GeneralSecretary from './pages/messages/general-secretary'
 
 const router = createBrowserRouter([
 	{
@@ -48,8 +49,12 @@ const router = createBrowserRouter([
 		element: <Home children={<President />} />,
 	},
 	{
-		path: '/messages/vice-president',
+		path: '/messages/vicepresident',
 		element: <Home children={<VicePresident />} />,
+	},
+	{
+		path: '/messages/generalsecretary',
+		element: <Home children={<GeneralSecretary />} />,
 	},
 	{
 		path: '/gallery',
