@@ -1,17 +1,9 @@
-// import { Link } from 'react-router-dom'
-
 const NotFound = () => {
-	// const moveToHome = () => {
-	// 	// ;<Link to="/"></Link>
-	// }
-
 	return (
 		<div>
-			<p className="main-heading">Sorry, page not found.</p>
+			<p className="main-heading">Page is under construction!</p>
+			<p className="main-heading">We'll be right back. Please stay tuned.</p>
 			<p className="sub-heading">Thank you for visiting NNN website.</p>
-			{/* <button className="not-found" onClick={<a href="." />}>
-				Go to Home page
-			</button> */}
 		</div>
 	)
 }
