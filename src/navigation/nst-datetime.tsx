@@ -10,6 +10,7 @@ function NstDateTime() {
 	})
 
 	const week_Day = new Date(npDate).getDay()
+
 	const dayOfWeek = [
 		'Sunday',
 		'Monday',

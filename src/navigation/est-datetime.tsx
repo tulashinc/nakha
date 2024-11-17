@@ -1,24 +1,27 @@
 import { useEffect, useState } from 'react'
 
 function EstDateTime() {
-	const [estTime, setEstTime] = useState(
-		new Date().toLocaleTimeString('en-us', { timeZone: 'America/New_York' })
-	)
+	const newDate = new Date().toLocaleTimeString('en-us', {
+		timeZone: 'America/New_York',
+	})
+
+	const [estTime, setEstTime] = useState(newDate)
 
 	const nyDate = new Date().toLocaleDateString('en-us', {
 		timeZone: 'America/New_York',
 	})
 
-	const week_Day = new Date(nyDate).getDay()
-	const dayOfWeek = [
-		'Sunday',
-		'Monday',
-		'Tuesday',
-		'Wednesday',
-		'Thursday',
-		'Friday',
-		'Saturday',
-	]
+	// const week_Day = new Date(nyDate).getDay()
+	// const dayOfWeek = [
+	// 	'Sunday',
+	// 	'Monday',
+	// 	'Tuesday',
+	// 	'Wednesday',
+	// 	'Thursday',
+	// 	'Friday',
+	// 	'Saturday',
+	// ]
+	const weekday = new Date().toLocaleDateString('en-us', { weekday: 'long' })
 
 	useEffect(() => {
 		const id = tickTime()
@@ -34,8 +37,9 @@ function EstDateTime() {
 	}
 
 	return (
-		<div className="p-2">
-			{dayOfWeek[week_Day]}, {nyDate}
+		<div>
+			{/* {dayOfWeek[week_Day]}, {nyDate} */}
+			{weekday}, {nyDate}
 			<br />
 			USA EST: {estTime}
 		</div>
