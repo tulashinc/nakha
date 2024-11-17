@@ -73,3 +73,7 @@
 	border-radius: 1rem;
 	/* top: 10; */
 }
+
+.dropdown {
+	display: none;
+}

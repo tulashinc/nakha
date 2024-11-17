@@ -36,7 +36,7 @@ const History = () => {
 				veritatis minima velit? Culpa, quas. Omnis, eveniet ratione illo,
 				reiciendis pariatur veniam perferendis eligendi delectus porro facilis
 				dolor. Repellat, alias! Itaque commodi placeat repudiandae saepe facere
-				fuga odit, aliquam id libero cumque eligendi illum ullam ducimus esse?
+				{/* fuga odit, aliquam id libero cumque eligendi illum ullam ducimus esse?
 				Libero porro, ipsum animi ut alias rem necessitatibus placeat in impedit
 				tempore iure? Ullam, possimus. Reiciendis impedit ab totam, vero
 				quibusdam ex architecto molestias recusandae aut animi excepturi sequi
@@ -66,7 +66,7 @@ const History = () => {
 				mollitia eum tenetur expedita. Lorem ipsum dolor sit amet consectetur,
 				adipisicing elit. Illum earum nihil aliquid nostrum consequuntur ullam
 				odio odit libero? Porro modi voluptates officiis maiores harum magnam
-				accusantium doloremque eligendi totam voluptatem!
+				accusantium doloremque eligendi totam voluptatem! */}
 			</p>
 		</div>
 	)

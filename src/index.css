@@ -26,3 +26,26 @@ h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
 }
+
+@media (min-width: 576px) {
+	.dropdown {
+		display: flex;
+		color: red;
+	}
+}
+@media (min-width: 768px) {
+	.dropdown {
+		display: flex;
+		color: green;
+	}
+}
+@media (min-width: 1024px) {
+	.dropdown {
+		color: blue;
+	}
+}
+@media (min-width: 1440px) {
+	.dropdown {
+		color: yellow;
+	}
+}

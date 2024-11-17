@@ -44,6 +44,16 @@ const Navbar = () => {
 			<Link to="/contact" className="menu-items">
 				Contact Us
 			</Link>
+			<div className="dropdown">
+				<ol>
+					<li>Home</li>
+					<li>Events</li>
+					<li>Messages</li>
+					<li>Media</li>
+					<li>Gallery</li>
+					<li>Contact Us</li>
+				</ol>
+			</div>
 			<div className="nst-datetime">
 				<NstDateTime />
 			</div>
